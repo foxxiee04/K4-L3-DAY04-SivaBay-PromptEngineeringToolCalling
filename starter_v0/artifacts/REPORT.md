@@ -11,10 +11,15 @@
 
 ## Team
 
-- Team:
+- Team: Si và Bảy
 - Thành viên và INDIVIDUAL: [TEAM.md](../../TEAM.md)
-- Members:
-- Provider/model:
+- Members: 
+  - Đoàn Phương Linh — 2A202602382
+  - Lê Công Tâm — 2A202602406
+  - Trần Quốc Sáng — 2A202602712
+  - Nguyễn Đình Anh Đức — 2A202602856
+  - Nguyễn Quang Tuấn — 2A202602470
+- Provider/model: OpenAI GPT-4o-mini
 
 # PHẦN A — Giới thiệu agent
 
