@@ -75,7 +75,18 @@ python scripts/preflight_provider.py --provider openrouter
 python run_eval.py --provider openrouter --version v0 --suite base --eval-cases data/eval_base.json
 ```
 
-Thay `openrouter` bằng `openai`, `anthropic` hoặc `gemini` khi dùng provider khác. Không commit `.env`.
+Thay `openrouter` bằng `openai`, `anthropic`, `gemini` hoặc `ollama` khi dùng provider khác. Không commit `.env`.
+
+## Chạy SmartCharging UI
+
+UI web nằm trong `starter_v0/ui.py`, dùng thư viện chuẩn Python và hiển thị rõ phiên bản artifact, tool call, input args, tool result/error và transcript được lưu.
+
+```powershell
+cd starter_v0
+python ui.py --provider openai --version final --port 7860
+```
+
+Sau đó mở `http://127.0.0.1:7860`. Có thể thay `openai` bằng `ollama`, `openrouter`, `anthropic` hoặc `gemini` nếu `.env` đã cấu hình provider tương ứng.
 
 ## Tài liệu cần đọc
 
